@@ -81,14 +81,14 @@ pcl::KdTreeFLANN<PointType>::Ptr kdtreeSurfLast(new pcl::KdTreeFLANN<PointType>(
 int laserCloudCornerLastNum;
 int laserCloudSurfLastNum;
 
-int pointSelCornerInd[40000];
-float pointSearchCornerInd1[40000];
-float pointSearchCornerInd2[40000];
+int pointSelCornerInd[60000];
+float pointSearchCornerInd1[60000];
+float pointSearchCornerInd2[60000];
 
-int pointSelSurfInd[40000];
-float pointSearchSurfInd1[40000];
-float pointSearchSurfInd2[40000];
-float pointSearchSurfInd3[40000];
+int pointSelSurfInd[60000];
+float pointSearchSurfInd1[60000];
+float pointSearchSurfInd2[60000];
+float pointSearchSurfInd3[60000];
 
 float transform[6] = {0};
 float transformSum[6] = {0};

@@ -60,10 +60,10 @@ bool systemInited = false;
 
 const int N_SCANS = 16;
 
-float cloudCurvature[40000];
-int cloudSortInd[40000];
-int cloudNeighborPicked[40000];
-int cloudLabel[40000];
+float cloudCurvature[60000];
+int cloudSortInd[60000];
+int cloudNeighborPicked[60000];
+int cloudLabel[60000];
 
 int imuPointerFront = 0;
 int imuPointerLast = -1;
